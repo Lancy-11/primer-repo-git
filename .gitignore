@@ -1,0 +1,80 @@
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# tests and coverage
+*.pytest_cache
+.coverage
+
+# database & logs
+*.db
+*.sqlite3
+*.log
+*.sqlite
+
+# venv
+env
+venv
+.venv
+
+# other
+.DS_Store
+
+# javascript
+package-lock.json
+
+staticfiles/*
+!staticfiles/.gitkeep
+
+.env
+
+data/*
+storage/*
+storage
+
+chdt_tmp/*
+db_data/*
+# Ignore Django Migrations in Development if you are working on team
+
+# Only for Development only
+#**/migrations/**
+#!**/migrations
+#!**/migrations/__init__.py
+
+# Pycharm
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+*.iws /out/
+.idea/misc.xml
+.idea/*.iml
+
+# Visual Studio Code
+.vscode/*
+#!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Backup files #
+*.bak
+
+
+.vscode/settings.json
+.vscode/launch.json
+
+# Docker file
+develops
+
+# test files
+.hypothesis
